@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tracker Blocker</title>
+    <style>
+      body { font-family: sans-serif; width: 200px; padding: 10px; }
+      textarea { width: 100%; height: 60px; }
+    </style>
+  </head>
+  <body>
+    <h3>Trackers Blocked: <span id="count">0</span></h3>
+    <button id="reset">Reset</button>
+    <hr />
+    <h4>Custom Blocklist</h4>
+    <textarea id="blocklist" placeholder="one.domain.com"></textarea>
+    <button id="save">Save List</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
